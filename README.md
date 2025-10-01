@@ -18,7 +18,7 @@ The project combines **rule-based logic** and **machine learning (anomaly detect
 ---
 
 ## 🖼️ Banner  
-![UEBA Banner](banner)  
+![UEBA Banner](banner.png)  
 
 ---
 
