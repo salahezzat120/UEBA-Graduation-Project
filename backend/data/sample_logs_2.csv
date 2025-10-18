@@ -1,0 +1,11 @@
+username,timestamp,activity_type,source_ip,location,result
+john.doe,2025-10-17 08:30:00,login,172.16.0.15,USA,success
+john.doe,2025-10-17 08:32:00,database_access,172.16.0.15,USA,success
+jane.smith,2025-10-17 09:05:00,login,192.168.1.101,Canada,success
+john.doe,2025-10-17 19:00:00,login,203.0.113.50,Russia,failed
+john.doe,2025-10-17 19:01:00,login,203.0.113.50,Russia,failed
+jane.smith,2025-10-17 22:45:00,file_access,192.168.1.101,Canada,success
+guest.user,2025-10-17 11:00:00,login,10.0.0.8,USA,failed
+guest.user,2025-10-17 11:01:00,login,10.0.0.8,USA,failed
+guest.user,2025-10-17 11:02:00,login,10.0.0.8,USA,failed
+guest.user,2025-10-17 11:03:00,login,10.0.0.8,USA,failed

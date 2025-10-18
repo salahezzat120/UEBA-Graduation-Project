@@ -43,3 +43,11 @@ A research + prototype system to:
 - Dashboards for visualization (Kibana / Grafana / Flask UI).  
 - Competitor & market gap analysis included (slides + documented research).  
 - Datasets & EDA notebooks (CERT, LANL, CLUE-LDS examples).  
+
+---
+
+## Local Dev Setup
+- Create virtualenv & activate
+- pip install -r requirements.txt
+- Run: uvicorn app.main:app --reload
+- First endpoint: /ping (returns pong)

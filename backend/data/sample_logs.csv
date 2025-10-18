@@ -1,0 +1,8 @@
+username,timestamp,activity_type,source_ip,location,result
+ahmed,2025-10-16 09:15:00,login,192.168.1.10,Egypt,success
+ahmed,2025-10-16 09:20:00,file_access,192.168.1.10,Egypt,success
+ahmed,2025-10-16 23:30:00,file_access,192.168.1.10,Egypt,success
+sara,2025-10-16 14:00:00,login,10.0.0.5,Egypt,failed
+sara,2025-10-16 14:01:00,login,10.0.0.5,Egypt,failed
+sara,2025-10-16 14:02:00,login,10.0.0.5,Egypt,failed
+omar,2025-10-16 10:15:00,login,192.168.1.20,Egypt,success
