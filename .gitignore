@@ -1,4 +1,30 @@
-venv/
+# Python
 __pycache__/
-*.db
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+
+# FastAPI / Builds
+dist/
+build/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Data (لو عندك CSV كبيرة خلّيك ماشي على استبعادها)
+backend/data/*.csv
 *.sqlite
+*.db
